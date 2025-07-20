@@ -31,11 +31,6 @@ Additionally, it provides three JSON files—`MC_data.json`, `QA_data.json`, and
   },
 ```
 
-## How to download:
-For some reason, Github had to truncate the image folder directory to 1,000 files.
-
-To download the full dataset, please go to Huggingface: https://huggingface.co/datasets/Tizzzzy/FinChart-Bench/tree/main
-
 ## How to test:
 ``` python
 import os
