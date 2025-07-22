@@ -52,7 +52,7 @@ args = parser.parse_args()
 
 types = args.type
 
-test_folder = f"../combined_data"
+test_folder = f"Your folder path"
 
 MC_images = test_folder + f"/MC_images"
 QA_images = test_folder + f"/QA_images"
