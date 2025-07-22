@@ -46,7 +46,7 @@ def acc(predict, ground_truth):
     return accuracy
 
 parser = argparse.ArgumentParser(description="Chart detection by year")
-parser.add_argument('--type', type=str, required=True, help='Type of questions to process')
+parser.add_argument('--type', type=str, required=True, help='Type of questions to process: TF, MC, or QA')
 
 args = parser.parse_args()
 
